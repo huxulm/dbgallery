@@ -1,0 +1,28 @@
+{
+  "name": "dbgallery",
+  "version": "1.0.0",
+  "description": "A demo for learning various popular database operation.",
+  "main": "dbgallery.js",
+  "scripts": {
+    "start": "node dbgallery.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jackdon/dbgallery.git"
+  },
+  "keywords": [
+    "node",
+    "database"
+  ],
+  "author": "jackdon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jackdon/dbgallery/issues"
+  },
+  "homepage": "https://github.com/jackdon/dbgallery#readme",
+  "dependencies": {
+    "mysql": "^2.10.2",
+    "node-mysql": "^0.4.2"
+  }
+}
