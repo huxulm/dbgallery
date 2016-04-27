@@ -47,21 +47,12 @@ var db = module.exports=function () {
 	return this;
 }
 
-
-// db().testQueryUser();
-// db().testQueryCar();
-
-
 /*var user = new UserModel({name: '许令明', age: 20});
 user.save(function (err, user) {
 	if (err)
 		throw err;
 	console.log(user);
 });*/
-
-
-
-
 
 // 写入测试数据
 /*for (var i = 80000 - 1; i >= 0; i--) {

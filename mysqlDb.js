@@ -22,7 +22,6 @@ var mysql = module.exports = function () {
 		connection.end();
 	}
 
-
 	// 池化管理
 	var pool = mysqlDb.createPool({
 	  host     : 'localhost',
