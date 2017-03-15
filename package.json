@@ -22,8 +22,10 @@
   },
   "homepage": "https://github.com/jackdon/dbgallery#readme",
   "dependencies": {
+    "bluebird": "^3.5.0",
     "mongoose": "^4.4.13",
     "mysql": "^2.10.2",
-    "node-mysql": "^0.4.2"
+    "node-mysql": "^0.4.2",
+    "redis": "^2.7.1"
   }
 }
